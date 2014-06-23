@@ -5,6 +5,7 @@ import com.xalero.dominion.commons.model.PlayerType;
 public class PlayerDto {
 
 	private Long playerId;
+	private int turnNumber;
     private String name;
     private PlayerType playerType;
 
@@ -14,6 +15,14 @@ public class PlayerDto {
     
     public Long getPlayerId() {
     	return playerId;
+    }
+    
+    public void setTurnNumber(int turnNumber) {
+    	this.turnNumber = turnNumber;
+    }
+    
+    public int getTurnNumber() {
+    	return turnNumber;
     }
     
     /**

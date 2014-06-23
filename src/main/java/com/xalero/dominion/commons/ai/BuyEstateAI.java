@@ -32,12 +32,12 @@ public class BuyEstateAI implements IDominionAI {
 //			SimpleSpecificPlayer me = gson.fromJson(message.getValue(), SimpleSpecificPlayer.class);
 //			money = me.getMoney();
 			break;
-		case UPDATE_MODEL:
+//		case UPDATE_MODEL:
 //			SimpleModel simpleModel = gson.fromJson(message.getValue(), SimpleModel.class);
 //			if (simpleModel.getPlayerTurn() == myTurnNumber) {
 //				myTurn = true;
 //			}
-			break;
+//			break;
 		default:
 				break;
 		}
